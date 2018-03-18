@@ -1,28 +1,31 @@
-== README
+# AUTENTICAÇÃO COM TIDDLE E DEVISE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# FERRAMENTAS UTILIZADAS: 
 
-Things you may want to cover:
+# FRAMEWORK RUBY ON RAILS;
+# BANCO DE DADOS POSTGRESQL;
+# SERVIDOR WEB PUMA;
 
-* Ruby version
+# GEM DO RAILS:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# RACK-COR { Para problemas de requisões da url }
+# DEVISE { Para autenticação de usuário }
+# TIDDLE { Para criação de token de sessão de usuário }
+# JBUILDER { Para a utilização de JSON na aplicação }
+# PG { Utilização do banco de dados PostGreSQL }
+# JQUERY-RAILS { Importar a lib jquery para utilizar o Ajax}
 
 
-Please feel free to use a different markup language if you do not plan to run
+
+# AJUDA:
+
+# 1.1 - CLONE O PROJETO
+# 1.2 - EXECUTE UM BUNDLE NO TERMINAL 
+# 1.3 - EXECUTE UM rake db:create e UM rake db:migrate
+# 1.4 - INICIE A APLICAÇÃO rails s
+# 1.5 - CRIE UM USUÁRIO E TESTE SUA APLICAÇÃO COM QUALQUER REQUISIÇÃO SEGUINDO A LÓGICA NO ARQUIVO JavaScript: 'assets/javascripts/application.js'
+
+#OBS: No arquivo JavaScript do projeto: 'assets/javascripts/application.js'
+#dá para analisar o código e ver como deve-se comportar as requisições para o controle do token.
+
 <tt>rake doc:app</tt>.
